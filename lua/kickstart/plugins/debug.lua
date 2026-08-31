@@ -27,7 +27,7 @@ return {
   keys = {
     -- Basic debugging keymaps, feel free to change to your liking!
     {
-      '<F5>',
+      '<leader>dc',
       function()
         require('dap').continue()
       end,
@@ -70,7 +70,7 @@ return {
     },
     -- Toggle to see last session result. Without this, you can't see session output in case of unhandled exception.
     {
-      '<F7>',
+      '<leader>do',
       function()
         require('dapui').toggle()
       end,
